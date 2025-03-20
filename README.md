@@ -1,49 +1,33 @@
 //PEFT Text Summarization//
 
-Effortless and accurate text summarization using Parameter-Efficient Fine-Tuning (PEFT)! This project leverages PEFT techniques to create a high-performing summarization model with minimal computational resources.
+Overview:-
 
-🌟 Overview
-Text summarization is essential for extracting key information from large volumes of text. This project implements a summarization model using PEFT to fine-tune a pre-trained language model efficiently.
+PEFT Text Summarization is an efficient text summarization tool leveraging Parameter-Efficient Fine-Tuning (PEFT). This project optimizes large language models for summarization tasks while reducing computational costs. It supports both extractive and abstractive summarization methods.
 
-🔥 Why PEFT?
-🚀 Fine-tunes pre-trained models with fewer parameters
-💡 Faster training and inference
-⚡️ Requires less memory and computing power
-📁 Project Structure
-bash
-Copy
-Edit
-├── data/               # Training and test data  
-├── models/             # Saved models  
-├── notebooks/          # Jupyter notebooks for exploration and debugging  
-├── src/                # Source code  
-│   ├── train.py        # Training script  
-│   ├── infer.py        # Inference script  
-├── main.py             # Entry point for the project  
-├── requirements.txt    # Dependencies  
-├── README.md           # Project documentation  
-└── .gitignore          # Ignore unnecessary files  
+Features:-
 
-🛠️ Technologies Used
-✅ Python
-✅ PEFT
-✅ Transformers
-✅ PyTorch
-✅ HuggingFace
+Implements PEFT for efficient fine-tuning of pre-trained models.
+Supports extractive and abstractive summarization.
+Built using PyTorch and Hugging Face Transformers.
+Optimized for performance while minimizing resource consumption.
+Customizable for different domains and text inputs.
 
-🎯 Key Features
-✨ Fine-tunes models using PEFT for better resource efficiency
-✨ Supports both extractive and abstractive summarization
-✨ Fast and lightweight — ideal for low-resource environments
-✨ Clean and modular code structure
 
-💡 Challenges and Solutions
-✅ Memory limitations → Solved using PEFT
-✅ Model accuracy → Fine-tuned hyperparameters
-✅ Data imbalance → Applied augmentation techniques
+For batch processing or API integration, refer to the documentation within the project.
 
-🤝 Contributing
-Feel free to fork the repo and create a pull request with any improvements or fixes!
+Project Structure:-
+
+InstructIQ_Project_3/
+│── src/                     # Source code
+│── main.py                  # Entry point for summarization
+│── train.py                 # Model fine-tuning script
+│── infer.py                 # Inference script
+│── requirements.txt         # Project dependencies
+│── README.md                # Project documentation
+
+Contributing:-
+
+Contributions are welcome. If you’d like to improve the project, feel free to fork the repository, create a new branch, and submit a pull request.
 
 📄 License
 This project is licensed under the MIT License.
